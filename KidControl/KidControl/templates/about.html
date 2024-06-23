@@ -1,10 +1,18 @@
-{% extends "layout.html" %}
-
-{% block content %}
+{% extends "layout.html" %} {% block content %}
 
 <h2>{{ title }}.</h2>
 <h3>{{ message }}</h3>
 
-<p>Use this area to provide additional information.</p>
+<p>Use this area to provide information.</p>
+<p>hi</p>
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15495329.36979089!2d80.6408690537601!3d18.527121725007195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174ce286d98ddc7%3A0xfa362a1ccda178aa!2sVietnamese%E2%80%93German%20University%20(VGU)!5e0!3m2!1sen!2s!4v1718685720622!5m2!1sen!2s"
+  width="600"
+  height="450"
+  style="border: 0"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+></iframe>
 
 {% endblock %}
