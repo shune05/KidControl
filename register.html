@@ -9,7 +9,7 @@
   <div class="main">
     <h1>Kid Control Register Page</h1>
     <h3>Create a new account</h3>
-    <form action="" method="POST" name="register-form" onsubmit="return confirmSubmission()">
+    <form action="https://script.google.com/macros/s/AKfycbyawbTqq54nZAFUfC7v4DrkH0ZQQKEypvco-R5gwBWGiBPpueQM566gwdWF-XbaxIPb/exec" method="POST" name="register-form" onsubmit="return confirmSubmission()">
       <div class="form-group">
           <input type="tel" id="new_phonenumber" name="new_phonenumber" class="form-control" placeholder="Enter Your Phone Number" required>
       </div>
@@ -40,18 +40,6 @@
             alert('Account created successfully!');
             return true;
         }
-
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbyawbTqq54nZAFUfC7v4DrkH0ZQQKEypvco-R5gwBWGiBPpueQM566gwdWF-XbaxIPb/exec'
-
-        const form = document.forms['contact-form']
-
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            fetch(scriptURL, { method: 'POST', body new FormData(form)})
-            .then(response => alert("Successfully"))
-            .then(() => { window.location.reload(); })
-            .catch(error => console.error('Error!', error.message))
-        })
   </script>
 </body>
 </html>

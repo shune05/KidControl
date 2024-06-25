@@ -7,9 +7,13 @@ body {
     font-family: Arial;
     line-height: 1.5;
     min-height: 100vh;
-    background: #f0e8db;
+    background: #EEE9DA;
     flex-direction: column;
     margin: 0;
+}
+
+h3{
+    color: #6096B4;
 }
 
 .main {
@@ -23,7 +27,7 @@ body {
 }
 
 h1 {
-    color: #4CAF50;
+    color: #6096B4;
 }
 
 label {
@@ -66,7 +70,7 @@ label {
 .btn {
     border-radius: 5px;
     border: none;
-    color: white;
+    color: #EEE9DA;
     cursor: pointer;
     width: 100%;
     font-size: 16px;
@@ -75,16 +79,20 @@ label {
 }
 
 .login-btn {
-    background-color: #4caf50;
+    background-color: #6096B4;
 }
 
 .register-btn {
-    background-color: #28a745;
+    background-color: #6096B4;
 }
 
 .forgot-password {
     display: block;
     margin-top: 10px;
-    color: #007bff;
+    color: #6096B4;
     text-decoration: none;
+}
+
+.login-link{
+    color: #6096B4;
 }
