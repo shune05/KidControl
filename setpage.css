@@ -1,0 +1,37 @@
+/* styles.css */
+
+/* Common Header and Footer Styles */
+@import url('/static/content/common.css');
+
+/* Main content styles */
+h1 {
+    font-size: 50px;
+    color: #EEE9DA;
+    text-align: center;
+    margin-top: 0px; /* Adjust based on navbar height */
+}
+
+main {
+    font-size: 20px;
+    padding-top: 80px; /* Ensure content does not overlap with fixed header */
+    margin: 0 auto;
+    color: #EEE9DA;
+    font-family: sans-serif;
+    max-width: 1200px; /* Limit the width of the main content */
+}
+
+/* Map styles */
+#map {
+    width: 100%;
+    height: 400px; /* Adjust this height as needed */
+    margin-top: 10px; /* Adjust based on desired positioning */
+}
+
+/* Form styles */
+.geocoding-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px; /* Adjust based on desired positioning */
+}
